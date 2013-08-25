@@ -1,0 +1,28 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<title>Card Invitation app</title>
+<h1>Card Invitation App</h1>
+<h2>Registration</h2>
+<table>
+<p> Please fill in your name:
+                <br/><input type="text" id="theName" name="theName" autofocus="autofocus" placeholder="Your name" required="required" />
+            </p>
+            <p> Please fill in your surname:
+                <br/><input type="text" id="theSurName" name="theSurName" placeholder="Your surname" required="required" />
+            </p>
+            <p> Please fill in your email:
+                <br/><input type="email" id="theEMail" name="theEMail" placeholder="Eg, name@place.co.za" required="required" />
+            </p>
+            <p> Please fill in your password:
+                <br/><input type="password" id="thePass" name="thePass" placeholder="Your password" required="required" />
+            </p>
+            <p> Please confirm your password:
+                <br/><input type="password" id="thePass2" name="thePass2" placeholder="Your confirmed password" required="required" />
+            </p>
+	    <p>
+	    <input type="button" id="theSubmit" name="theSubmit" value="Submit!"/> 
+	    </p>
+	    </table>
+</html>
